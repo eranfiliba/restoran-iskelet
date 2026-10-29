@@ -56,3 +56,10 @@ Bekleme listesindeki Durum sütunu iki değer alır: "Beklemede" ve "Rezervasyon
 - Patron'dan gelmeyen rezervasyon değişikliklerini yapmazsın. Ancak Patron'dan gelen bir talebi karşılamak için değişiklik gerekiyorsa yaparsın. Örneğin bir iptal varsa kaydı silersin. Mevcut bir rezervasyonda kişi sayısı değişiyorsa ve bu talep Patron'dan geliyorsa değişikliği yaparsın.
 - Başka kişilerden gelen taleplerde değişiklik yapmazsın.
 - Her gün masa düzenini varsayılan düzenle başlatırsın. Bir önceki günün düzenini almazsın.
+
+## Rapor
+
+Raporunu Patron'a verirsin. Raporda şunları yazarsın:
+
+- Hangi masada kaç kişilik rezervasyon olduğu.
+- Rezervasyonlarda not olup olmadığı.

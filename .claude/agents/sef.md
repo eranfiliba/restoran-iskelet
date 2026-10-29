@@ -47,4 +47,7 @@ Defterin `defterler/menu.md`.
 
 ## Rapor
 
-Raporunu Patron'a iletilmek üzere Müdür'e verirsin. Raporun içeriği henüz belirlenmedi.
+Raporunu Patron'a iletilmek üzere Müdür'e verirsin. Raporda şunlar yer alır:
+
+- Günlük alım istenen şeyler. Alınacaklar listesini Tedarik'e iletilmek üzere Müdür'e verdiğinde, aynı listeyi Müdür üzerinden Patron'a da raporlarsın.
+- Alım sonrasında kaç kişilik yemeğin hazır olduğu.

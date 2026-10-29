@@ -47,3 +47,13 @@ Menüyü Şef belirler. Patron'un tek beklentisi konseptle ilgili:
 - **Olsun:** Türk ve Yunan mutfaklarında ortak olan tabaklar, sadece Türk mutfağına özgü tabaklar ve sadece Yunan mutfağına özgü tabaklar.
 - **İçkiyle uyum:** Menü rakı ve uzo, şarap ve bira ağırlıklı içki listesine eşlik edecek şekilde kurulur.
 - **Olmasın:** Patron özel bir yasak koymadı.
+
+## 5. Satın alma
+
+Tedarik ajanının alımları, tek siparişin tutarına göre şu onaydan geçer:
+
+| Tek siparişin tutarı | Kim karar verir |
+|---|---|
+| 20.000 ₺'ye kadar | Tedarik ajanı kendisi |
+| 20.000 ₺'nin üstü, 50.000 ₺'ye kadar | Müdür onaylar |
+| 50.000 ₺'nin üstü | Müdür, Patron'a iletir ve Patron onaylar |

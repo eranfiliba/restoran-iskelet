@@ -10,7 +10,7 @@ Patron'un konuştuğu oturum Müdür'dür.
 | Müdür | Her şeyi Patron'dan alır ve bütün iletişimi sağlar. |
 | Rezervasyon ajanı | Görevi kendi ajan dosyasında yazar: `.claude/agents/rezervasyon.md`. |
 | Şef ajanı | Görevi kendi ajan dosyasında yazar: `.claude/agents/sef.md`. |
-| Tedarik ajanı | Henüz eklenmedi. Ana rolü, Şef'in oluşturduğu menü ve içeriklerin her gün tedarikini sağlamak. Alımları tedarikçilerden yapar. Diğer görevleri ajan dosyası hazır olunca belli olacak. |
+| Tedarik ajanı | Oluşturuldu. Görevi kendi ajan dosyasında yazar: `.claude/agents/tedarik.md`. |
 
 ## Defter sahipleri
 
@@ -20,7 +20,7 @@ Patron'un konuştuğu oturum Müdür'dür.
 | `defterler/tedarikciler.md` | Patron |
 | `defterler/rezervasyonlar.md` | Rezervasyon ajanı |
 | `defterler/menu.md` | Şef |
-| Tedarik defteri, henüz oluşturulmadı | Tedarik ajanı |
+| `defterler/siparisler.md` | Tedarik ajanı |
 
 ## Ortak kurallar
 
@@ -54,8 +54,6 @@ Patron'un konuştuğu oturum Müdür'dür.
 5. Tedarik ajanı alımları yapar. Alımlar tutarlarına göre onay mekanizmasından geçer.
 6. Alımlar tamamlanınca Müdür, Şef'e bilgi verir.
 7. Şef alım sonrasında stoğu günceller. Alım onaylanmadan stok güncellemesi yapmaz.
-
-Tedarik ajanı henüz yokken zincir 3. adımda, Şef'in alınacaklar listesinde durur. Zincir Tedarik ajanı eklenince tamamlanır.
 
 ### Rezervasyon talebi
 

@@ -6,21 +6,21 @@ Bu defterin sahibi Şef'tir.
 
 Müşterilerin gördüğü yemekler. Menü tarihi: 2026-10-29.
 
-| Yemek adı | Fiyat | Yemek türü |
-|---|---|---|
-| Cacık / Tzatziki | 240 ₺ | Soğuk meze (Türk-Yunan ortak) |
-| Fava | 220 ₺ | Soğuk meze (Türk-Yunan ortak) |
-| Şakşuka | 240 ₺ | Soğuk meze (Türk) |
-| Horiatiki salata | 320 ₺ | Salata (Yunan) |
-| Izgara ahtapot | 720 ₺ | Ara sıcak (Türk-Yunan ortak) |
-| Paçanga böreği | 340 ₺ | Ara sıcak (Türk) |
-| Karides saganaki | 520 ₺ | Ara sıcak (Yunan) |
-| Izgara levrek | 880 ₺ | Ana yemek (Türk-Yunan ortak) |
-| Hünkâr beğendi | 780 ₺ | Ana yemek (Türk) |
-| Pastitsio | 620 ₺ | Ana yemek (Yunan) |
-| Sütlaç / Rizogalo | 220 ₺ | Tatlı (Türk-Yunan ortak) |
-| Kabak tatlısı | 240 ₺ | Tatlı (Türk) |
-| Galaktoboureko | 280 ₺ | Tatlı (Yunan) |
+| Yemek adı | Fiyat | Yemek türü | 2026-10-29 akşam |
+|---|---|---|---|
+| Cacık / Tzatziki | 240 ₺ | Soğuk meze (Türk-Yunan ortak) | Var |
+| Fava | 220 ₺ | Soğuk meze (Türk-Yunan ortak) | Var |
+| Şakşuka | 240 ₺ | Soğuk meze (Türk) | Var |
+| Horiatiki salata | 320 ₺ | Salata (Yunan) | Var |
+| Izgara ahtapot | 720 ₺ | Ara sıcak (Türk-Yunan ortak) | Yapılamıyor (balık hali teslimatı iptal) |
+| Paçanga böreği | 340 ₺ | Ara sıcak (Türk) | Var |
+| Karides saganaki | 520 ₺ | Ara sıcak (Yunan) | Yapılamıyor (balık hali teslimatı iptal) |
+| Izgara levrek | 880 ₺ | Ana yemek (Türk-Yunan ortak) | Yapılamıyor (balık hali teslimatı iptal) |
+| Hünkâr beğendi | 780 ₺ | Ana yemek (Türk) | Var |
+| Pastitsio | 620 ₺ | Ana yemek (Yunan) | Var |
+| Sütlaç / Rizogalo | 220 ₺ | Tatlı (Türk-Yunan ortak) | Var |
+| Kabak tatlısı | 240 ₺ | Tatlı (Türk) | Var |
+| Galaktoboureko | 280 ₺ | Tatlı (Yunan) | Var |
 
 İçki uyumu: mezeler ve deniz ürünleri rakı ve uzo için; levrek ve ahtapot beyaz şarapla; hünkâr beğendi ve pastitsio kırmızı şarapla; paçanga böreği ve şakşuka bira ile de gider.
 
@@ -136,23 +136,25 @@ Varsayım: kişi başı 1 ana yemek ve 1 tatlı; soğuk mezeler ve ara sıcaklar
 | Fava | Soğuk meze | 8 |
 | Şakşuka | Soğuk meze | 7 |
 | Horiatiki salata | Salata | 9 |
-| Izgara ahtapot | Ara sıcak | 6 |
+| Izgara ahtapot | Ara sıcak | 0 (yapılamıyor; planlanan 6) |
 | Paçanga böreği | Ara sıcak | 7 |
-| Karides saganaki | Ara sıcak | 6 |
-| Izgara levrek | Ana yemek | 8 |
-| Hünkâr beğendi | Ana yemek | 7 |
-| Pastitsio | Ana yemek | 6 |
+| Karides saganaki | Ara sıcak | 0 (yapılamıyor; planlanan 6) |
+| Izgara levrek | Ana yemek | 0 (yapılamıyor; planlanan 8) |
+| Hünkâr beğendi | Ana yemek | 11 (ilk plan 7; B ek alımıyla artırıldı) |
+| Pastitsio | Ana yemek | 10 (ilk plan 6; B ek alımıyla artırıldı) |
 | Sütlaç / Rizogalo | Tatlı | 8 |
 | Kabak tatlısı | Tatlı | 7 |
 | Galaktoboureko | Tatlı | 6 |
 
-Toplam: 32 soğuk meze/salata, 19 ara sıcak, 21 ana yemek, 21 tatlı.
+Toplam (ilk plan): 32 soğuk meze/salata, 19 ara sıcak, 21 ana yemek, 21 tatlı.
+Toplam (balık hali iptali sonrası): 32 soğuk meze/salata, 7 ara sıcak, 13 ana yemek, 21 tatlı.
+Toplam (B ek alımı sonrası, geçerli plan): 32 soğuk meze/salata, 7 ara sıcak, 21 ana yemek, 21 tatlı. Mezeler, ara sıcak ve tatlılar değişmedi (A seçeneği uygulanmadı).
 
 ### 2026-10-29 akşam alım ihtiyacı
 
 İhtiyaç = porsiyon planı x tarif gramajı. Stok şu an boş olduğu için ihtiyacın tamamı alınmalı. Alım miktarı tedarikçi birimine göre yukarı yuvarlandı.
 
-Alımı Tedarik ajanı yapacak; ajan henüz kurulmadı, kurulduğunda bu liste ona iletilecek.
+Alımı Tedarik ajanı yaptı (aşağıdaki Durum notuna bakın).
 
 Masa ekmeği menüde satılan bir tabak değil, tarifi yok; masaya ikram olarak çıkar. Hesap: 3 kişiye 1 somun, 21 kişi için 7 somun, saganaki ve mezelere ek olarak 1 somun pay, toplam 8 adet.
 
@@ -217,57 +219,63 @@ Masa ekmeği menüde satılan bir tabak değil, tarifi yok; masaya ikram olarak 
 
 Tek siparişlerin hiçbiri 20.000 ₺'yi geçmiyor; kurallara göre Tedarik ajanının kendi onay sınırında kalır.
 
-**Durum (2026-10-29 12:00):** Kişi sayısı Müdür üzerinden 17 olarak teyit edildi, plan değişmedi. Liste Müdür'e iletildi. Tedarik ajanı olmadığı için alım yapılmadı, stok güncellenmedi.
+**Durum (2026-10-29 12:00):** Kişi sayısı Müdür üzerinden 17 olarak teyit edildi, plan değişmedi. Liste Müdür'e iletildi.
+
+**Durum (2026-10-29):** Tedarik ajanı 44 kalemin tamamını listedeki miktarlarla aldı (tüm siparişler 20.000 ₺ altı, Tedarik ajanının yetkisinde, onaylı). Tahin Özel ürün tedarikçisinden, tarçın ve kekik Bakkal'dan geldi. Stok bu alıma göre güncellendi; porsiyon planındaki 13 yemeğin tamamı için stok yeterli.
+
+**Durum (2026-10-29, düzeltme):** Balık hali bu akşam teslimat yapamadı; levrek (bütün) 3,5 kg, ahtapot 1,5 kg ve karides 1 kg siparişi iptal oldu, gelmedi. Başka tedarikçide bu ürün grupları yok, alternatif alım yapılmadı. Bu üç kalem stoğa girmemiş sayıldı ve stoktan çıkarıldı (miktar 0). Diğer 41 kalemin alımı geçerli. Bu yüzden bu akşam Izgara ahtapot, Karides saganaki ve Izgara levrek yapılamıyor; menüde işaretlendi. Yerine koyma önerisi Müdür'e iletildi, menüye eklenmedi.
+
+**Durum (2026-10-29, ek alım):** Patron B seçeneğini (ek alım) onayladı. Tedarik ajanı ek alımı yaptı (Tedarik ajanının yetkisinde, onaylı): Kuzu kuşbaşı 0,5 kg; Dana kıyma 0,5 kg; Patlıcan 1 kg; Kuru soğan 0,5 kg; Tereyağı 0,25 kg; Süt 1 lt; Kaşar 0,25 kg; Domates konservesi 0,25 kg. Stoğa eklendi. Porsiyon planı güncellendi: Hünkâr beğendi 11, Pastitsio 10 (ana yemek toplam 21). A seçeneğindeki meze artışları uygulanmadı. Geçerli planın tamamı için stok yeterli.
 
 ## Stok
 
 Birim sütununa `defterler/tedarikciler.md`'de geçen birimlerden biri yazılır.
 
-Son güncelleme: 2026-10-29. Henüz alım girişi yapılmadı; tüm kalemler 0. Alım teslim alındığında miktarlar buraya işlenecek.
+Son güncelleme: 2026-10-29. 2026-10-29 akşam alımı (44 kalem, Tedarik ajanı, onaylı) önceki stoğun (tüm kalemler 0) üstüne eklendi. Düzeltme (2026-10-29): Balık hali siparişi (levrek 3,5 kg, ahtapot 1,5 kg, karides 1 kg) iptal oldu, gelmedi; bu üç kalem stoğa girmemiş sayılır, miktarları 0'a çekildi. Geçerli alım 41 kalem. Ek alım (2026-10-29, Patron onaylı B seçeneği, Tedarik ajanı): Kuzu kuşbaşı +0,5 kg, Dana kıyma +0,5 kg, Patlıcan +1 kg, Kuru soğan +0,5 kg, Tereyağı +0,25 kg, Süt +1 lt, Kaşar +0,25 kg, Domates konservesi +0,25 kg mevcut stoğun üstüne eklendi.
 
 | İçerik | Birim | Miktar |
 |---|---|---|
-| Domates | kg | 0 |
-| Patlıcan | kg | 0 |
-| Bal kabağı | kg | 0 |
-| Salatalık | kg | 0 |
-| Kuru soğan | kg | 0 |
-| Sivri biber | kg | 0 |
-| Kırmızı soğan | kg | 0 |
-| Sarımsak | kg | 0 |
-| Dereotu | demet | 0 |
-| Maydanoz | demet | 0 |
-| Roka | demet | 0 |
-| Limon | kg | 0 |
-| Kuzu kuşbaşı | kg | 0 |
-| Dana kıyma | kg | 0 |
-| Pastırma | kg | 0 |
+| Domates | kg | 3 |
+| Patlıcan | kg | 4 |
+| Bal kabağı | kg | 2 |
+| Salatalık | kg | 1,5 |
+| Kuru soğan | kg | 1,5 |
+| Sivri biber | kg | 1 |
+| Kırmızı soğan | kg | 0,5 |
+| Sarımsak | kg | 0,25 |
+| Dereotu | demet | 2 |
+| Maydanoz | demet | 2 |
+| Roka | demet | 2 |
+| Limon | kg | 1 |
+| Kuzu kuşbaşı | kg | 2 |
+| Dana kıyma | kg | 1,5 |
+| Pastırma | kg | 0,3 |
 | Levrek | kg | 0 |
 | Ahtapot | kg | 0 |
 | Karides | kg | 0 |
-| Kuru bakla | kg | 0 |
-| Kalın makarna | kg | 0 |
-| Pirinç | kg | 0 |
-| Un | kg | 0 |
-| İrmik | kg | 0 |
-| Ceviz içi | kg | 0 |
-| Nişasta | kg | 0 |
-| Zeytinyağı | lt | 0 |
-| Ayçiçek yağı | lt | 0 |
-| Tereyağı | kg | 0 |
-| Süt | lt | 0 |
-| Süzme yoğurt | kg | 0 |
-| Beyaz peynir | kg | 0 |
-| Kaşar | kg | 0 |
-| Yumurta | 30'lu koli | 0 |
-| Domates konservesi | kg | 0 |
-| Domates salçası | kg | 0 |
-| Siyah zeytin | kg | 0 |
-| Şeker | kg | 0 |
-| Tahin | kg | 0 |
-| Yufka | adet | 0 |
-| Ekmek (somun) | adet | 0 |
-| Tuz | kg | 0 |
-| Pul biber | kg | 0 |
-| Tarçın | kg | 0 |
-| Kekik | kg | 0 |
+| Kuru bakla | kg | 1 |
+| Kalın makarna | kg | 1 |
+| Pirinç | kg | 0,5 |
+| Un | kg | 0,5 |
+| İrmik | kg | 0,5 |
+| Ceviz içi | kg | 0,25 |
+| Nişasta | kg | 0,25 |
+| Zeytinyağı | lt | 1 |
+| Ayçiçek yağı | lt | 1 |
+| Tereyağı | kg | 0,75 |
+| Süt | lt | 6 |
+| Süzme yoğurt | kg | 1,5 |
+| Beyaz peynir | kg | 1 |
+| Kaşar | kg | 1 |
+| Yumurta | 30'lu koli | 1 |
+| Domates konservesi | kg | 0,75 |
+| Domates salçası | kg | 0,25 |
+| Siyah zeytin | kg | 0,25 |
+| Şeker | kg | 1,5 |
+| Tahin | kg | 0,25 |
+| Yufka | adet | 7 |
+| Ekmek (somun) | adet | 8 |
+| Tuz | kg | 0,1 |
+| Pul biber | kg | 0,05 |
+| Tarçın | kg | 0,05 |
+| Kekik | kg | 0,05 |

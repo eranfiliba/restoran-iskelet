@@ -98,7 +98,7 @@ Gramajlar 1 porsiyon içindir. Et, balık ve deniz ürünlerinde gramaj çiğ a�
 | Pastitsio | Dana kıyma | 120 g |
 | Pastitsio | Kuru soğan | 40 g |
 | Pastitsio | Domates konservesi | 60 g |
-| Pastitsio | Tarçın | 0.5 g |
+| Pastitsio | Tarçın | 0,5 g |
 | Pastitsio | Süt | 150 ml |
 | Pastitsio | Tereyağı | 20 g |
 | Pastitsio | Un | 15 g |
@@ -108,7 +108,7 @@ Gramajlar 1 porsiyon içindir. Et, balık ve deniz ürünlerinde gramaj çiğ a�
 | Sütlaç / Rizogalo | Süt | 200 ml |
 | Sütlaç / Rizogalo | Şeker | 30 g |
 | Sütlaç / Rizogalo | Nişasta | 5 g |
-| Sütlaç / Rizogalo | Tarçın | 0.5 g |
+| Sütlaç / Rizogalo | Tarçın | 0,5 g |
 | Kabak tatlısı | Bal kabağı | 250 g |
 | Kabak tatlısı | Şeker | 60 g |
 | Kabak tatlısı | Ceviz içi | 15 g |
@@ -202,6 +202,22 @@ Masa ekmeği menüde satılan bir tabak değil, tarifi yok; masaya ikram olarak 
 | Pul biber | Temel baharat | 0,006 kg | 0,05 | kg |
 | Tarçın | Temel baharat | 0,007 kg | 0,05 | kg |
 | Kekik | Temel baharat | 0,015 kg | 0,05 | kg |
+
+**Tahmini tutar** (`defterler/tedarikciler.md` fiyat aralıkları içinden kalem bazında seçilen birim fiyatlarla, yuvarlanmış):
+
+| Tedarikçi | Kalemler | Tahmini tutar |
+|---|---|---|
+| Manav | Sebze, yeşillik, limon | 885 ₺ |
+| Kasap | Kuzu kuşbaşı, dana kıyma, pastırma | 2.640 ₺ |
+| Balık hali | Levrek, ahtapot, karides | 4.400 ₺ |
+| Market | Kuru gıda, yağ, süt ürünleri, peynir, yumurta, konserve, şeker | 2.774 ₺ |
+| Özel ürün tedarikçisi | Tahin | 75 ₺ |
+| Bakkal | Yufka, ekmek, temel baharat | 382 ₺ |
+| **Toplam** | | **yaklaşık 11.150 ₺** |
+
+Tek siparişlerin hiçbiri 20.000 ₺'yi geçmiyor; kurallara göre Tedarik ajanının kendi onay sınırında kalır.
+
+**Durum (2026-10-29 12:00):** Kişi sayısı Müdür üzerinden 17 olarak teyit edildi, plan değişmedi. Liste Müdür'e iletildi. Tedarik ajanı olmadığı için alım yapılmadı, stok güncellenmedi.
 
 ## Stok
 
